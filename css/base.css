@@ -1,0 +1,43 @@
+@charset "utf-8"; 
+/*resetcss*/
+body, div,iframe, ul, ol, dl, dt, dd, li, dl, 
+h1, h2, h3, h4, table,th, td, input, button, select,p,
+ textarea ,a{
+ 	margin:0; 
+ 	padding:0;
+ 	position:relative;
+	font-style: normal;
+	font:12px/22px "微软雅黑",Arial, Helvetica, sans-serif;
+}
+ textarea {overflow: hidden}
+ol, ul ,li{
+	list-style: none;
+} 
+img {
+	border: 0; 
+	vertical-align:middle;
+} 
+body{
+	color:#000000;
+	background:#FFF; 
+} 
+.clear{
+	clear:both;
+	height:1px;
+	width:100%;
+ 	overflow:hidden; 
+ 	margin-top:-1px;
+ } 
+.clear:before{
+	content:"";
+	position:absolute;
+	left:0;
+	right:0;
+	
+}
+a{
+	text-decoration:none;
+	cursor: pointer
+} 
+
+/*indexcss*/
